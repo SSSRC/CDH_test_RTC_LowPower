@@ -1,2 +1,3 @@
 # CDH_test_RTC_LowPower
-Spresenseの内蔵RTCがSleep状態でも動き続けるかどうかを確認するために一応作ったやつです
+Spresenseの内蔵RTCがSleep状態でも動き続けるかどうかを確認するために一応作ったやつです。
+Spresenseを一定時間スリープ状態にし、その前と後のRTC時刻を比較してスリープ状態下でもRTCが動き続けているかどうか確認するためのプログラムです。
