@@ -41,4 +41,7 @@ void loop() {
   time_after_cold_sleep = RTC.getTime();
   Serial.print("ColdSleep後のRTC時間:");
   Serial.print(time_after_cold_sleep);
+  Serial.end();
+  LowPower.end();
+  RTC.end();
 }
